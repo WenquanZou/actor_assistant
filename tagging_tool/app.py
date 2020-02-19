@@ -1,7 +1,7 @@
 import spacy
 import os
 from flask import Flask, render_template, request, jsonify
-import xml.etree.ElementTree as ET
+import lxml.etree as ET
 
 TEMPLATE_DIR = os.path.abspath('static')
 app = Flask(__name__, template_folder=TEMPLATE_DIR)
@@ -37,19 +37,28 @@ def static_file(path):
 
 
 def extract_xml(text):
-    root = ET.fromstring(text)
+    xml_filename = "/localData/shakespeare_scripts/ps_alls_well_that_ends_well.xml"
+    xsl_filename = ""
+    
+    dom = ET.parse(xml_filename)
+    xslt = ET.parse(xsl_filename)
+    transform = ET.XSLT(xslt)
+    newdom = transform(dom)
+    print(ET.tostring(newdom, pretty_print=True))
+    
+    # root = ET.fromstring(text)
+    #
+    # text = ""
+    # for child in root.find('./act'):
+    #     if child.tag == 'p':
+    #         text += child.text
+    #         text += '\n\n'
+    #
+    # meta = {'title': concat_elements(root, './title'),
+    #         'headline': concat_elements(root, './headline'),
+    #         'date': root.attrib['date']}
 
-    text = ""
-    for child in root.find('./text'):
-        if child.tag == 'p':
-            text += child.text
-            text += '\n\n'
-
-    meta = {'title': concat_elements(root, './title'),
-            'headline': concat_elements(root, './headline'),
-            'date': root.attrib['date']}
-
-    return text, meta
+    return text
 
 
 def concat_elements(root, tag):
