@@ -10,6 +10,14 @@ export default class Window extends Component {
     content: undefined
   }
 
+  /**
+   * Param:
+   * playId
+   * 
+   * Returns: 
+   * A function to bind to the link which gets 
+   * the HTML of that play and sends it to the content.
+   */
   loadPlay = playId => event => {
     event.preventDefault()
     fetch(`http://127.0.0.1:5000/play/${playId}`, {
