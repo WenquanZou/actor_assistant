@@ -13,14 +13,14 @@ export default class Window extends Component {
   /**
    * Param:
    * playId
-   * 
-   * Returns: 
-   * A function to bind to the link which gets 
+   *
+   * Returns:
+   * A function to bind to the link which gets
    * the HTML of that play and sends it to the content.
    */
-  loadPlay = playId => event => {
+  loadPlay = playname => event => {
     event.preventDefault()
-    fetch(`http://127.0.0.1:5000/play/${playId}`, {
+    fetch(`http://127.0.0.1:5000/play/${playname}`, {
       headers: {
         'Access-Control-Allow-Origin':'*'
       }
@@ -29,6 +29,9 @@ export default class Window extends Component {
       .then(({ html }) => {
         console.log(html)
         this.setState({ content: html })
+      })
+      .then(({ xml }) => {
+          this.setState({content: xml})
       })
       .catch(console.error)
   }
@@ -40,7 +43,8 @@ export default class Window extends Component {
           <Menu plays={this.props.plays} loadPlay={this.loadPlay.bind(this)} />
         </Grid>
         <Grid item xs={8}>
-          <Content content={this.state.content} />
+              <div dangerouslySetInnerHTML={{ __html: this.state.content }} />
+          {/*<Content content={this.state.content} />*/}
         </Grid>
       </Grid>
     );

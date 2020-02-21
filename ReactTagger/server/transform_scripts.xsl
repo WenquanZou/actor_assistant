@@ -15,7 +15,9 @@
 
     <xsl:template match="scene">
         <h3>
-            <xsl:value-of select="./scenetitle"/>
+            <a id="Act {@actnum} Scene {@num}">
+                <xsl:value-of select="./scenetitle"/>
+            </a>
         </h3>
         <xsl:apply-templates select="@* | node()"/>
     </xsl:template>
@@ -32,20 +34,20 @@
     </xsl:template>
 
     <xsl:template match="scene/stagedir">
-        <p class="stagedir">
+        <p class="stagedir" id="Stagedir {@sdglobalnumber}">
             <xsl:value-of select="current()/dir"/>
         </p>
     </xsl:template>
 
     <!--Leaf node-->
     <xsl:template match="speech/line">
-        <p class="line" style="position: relative;">
+        <p class="line" id="Line {@globalnumber}" style="position: relative;">
             <xsl:value-of select="current()"/>
         </p>
     </xsl:template>
 
     <xsl:template match="speech/stagedir">
-        <p class="stagedir">
+        <p class="stagedir" id="Stagedir {@sdglobalnumber}">
             <xsl:value-of select="current()/dir"/>
         </p>
     </xsl:template>
