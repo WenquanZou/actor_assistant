@@ -7,8 +7,7 @@ export default class Window extends Component {
 
     state = {
         filename: undefined,
-        content: undefined,
-        xml: undefined
+        acts: undefined
     }
 
     /**
@@ -28,9 +27,8 @@ export default class Window extends Component {
         })
             .then(result => result.json())
             .then(({acts, title}) => {
-                console.log(acts);
                 this.setState({filename: title});
-                this.setState({content: acts})
+                this.setState({acts: acts})
             })
             .catch(console.error)
     }
@@ -42,7 +40,7 @@ export default class Window extends Component {
                     <Menu plays={this.props.plays} loadPlay={this.loadPlay.bind(this)}/>
                 </Grid>
                 <Grid item xs={8}>
-                    <Content content={this.state.content} filename={this.state.filename}/>
+                    <Content acts={this.state.acts} filename={this.state.filename}/>
                 </Grid>
             </Grid>
         );
