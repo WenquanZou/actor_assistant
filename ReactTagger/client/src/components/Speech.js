@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import Stagedir from "./Stagedir";
-import {Typography} from "@material-ui/core";
 
 export default class Speech extends Component {
     render() {
