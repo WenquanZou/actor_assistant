@@ -1,10 +1,9 @@
 import flask
-from flask import request, jsonify
+from flask import jsonify
 from flask_cors import CORS, cross_origin
 import os
 from os import listdir
 from os.path import isfile, join
-import json
 import lxml.etree as ET
 
 app = flask.Flask(__name__)
@@ -51,7 +50,7 @@ def parse_scene(element):
     children = []
     scene_num = element.attrib['num']
     act_num = element.attrib['actnum']
-    for child in element.iter():
+    for child in element.iterchildren():
         if child.tag == "speech":
             children.append(parse_speech(child))
         elif child.tag == "stagedir":
@@ -61,7 +60,7 @@ def parse_scene(element):
 
 def parse_speech(element):
     children = []
-    for child in element.iter():
+    for child in element.iterchildren():
         if child.tag == "line":
             children.append(parse_line(child))
         elif child.tag == "stagedir":
@@ -73,7 +72,12 @@ def parse_speech(element):
 
 def parse_line(element):
     line_num = element.attrib['globalnumber']
-    text = element.text
+    text = ""
+    if element.text:
+        text = element.text
+    for child in element.iterchildren():
+        if child.tag == "foreign" and child.text:
+            text = text + child.text + child.tail
     return {'type': "line", 'line_num': line_num, 'text': text}
 
 

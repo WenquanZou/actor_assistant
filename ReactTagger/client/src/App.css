@@ -42,3 +42,20 @@
     height: 100vh;
     overflow-y: auto;
 }
+
+.speech {
+    padding-bottom: 20px;
+}
+
+.speaker {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.stagedir {
+    font-style: italic;
+}
+
+.line {
+    font-size: 18px;
+}

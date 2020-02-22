@@ -5,13 +5,13 @@ class Menu extends Component {
     render() {
         return (
             <List className="scrollable">
-                {this.props.plays.map((play) => (
-                    <>
-                        <ListItem key={play} button onClick={this.props.loadPlay(play)}>
+                {this.props.plays.map((play, key) => (
+                    <div key={key}>
+                        <ListItem button onClick={this.props.loadPlay(play)}>
                             <ListItemText primary={play}/>
                         </ListItem>
                         <Divider/>
-                    </>
+                    </div>
                 ))}
             </List>
         );

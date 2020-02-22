@@ -29,7 +29,7 @@ class App extends Component {
     render() {
         return (
             <Container>
-                <Typography component='h1' variant='h3' align='center' gutterBottom>Tagging Tool</Typography>
+                <Typography component='h1' variant='h2' align='center' gutterBottom>Annotation tool for Shakespeare's plays</Typography>
                 {
                     this.state.plays === undefined && <p>Loading plays...</p>
                 }
