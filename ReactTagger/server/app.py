@@ -4,6 +4,7 @@ from flask_cors import CORS, cross_origin
 import os
 from os import listdir
 from os.path import isfile, join
+import json
 import lxml.etree as ET
 
 app = flask.Flask(__name__)
@@ -27,17 +28,59 @@ def get_plays():
 def get_play(playname):
     script_dir = os.path.abspath("shakespeare_scripts")
     xml_filename = os.path.join(script_dir, playname)
-    xsl_dir = os.path.dirname(__file__)
-    xsl_filename = os.path.join(xsl_dir, "transform_scripts.xsl")
-
+    
     dom = ET.parse(xml_filename)
-    xslt = ET.parse(xsl_filename)
-    transform = ET.XSLT(xslt)
-    new_dom = transform(dom)
+    acts = []
+    title = dom.xpath("//title")[0].text
+    for child in dom.xpath("//act"):
+        acts.append(parse_act(child))
     return jsonify({
-        'html': str(new_dom),
-        'xml' : str(dom)
+        'acts': acts,
+        'title': title
     })
+
+
+def parse_act(element):
+    children = []
+    for child in element.xpath("./scene"):
+        children.append(parse_scene(child))
+    return {'type': 'act', 'act_num': element.attrib['num'], 'scenes': children}
+
+
+def parse_scene(element):
+    children = []
+    scene_num = element.attrib['num']
+    act_num = element.attrib['actnum']
+    for child in element.iter():
+        if child.tag == "speech":
+            children.append(parse_speech(child))
+        elif child.tag == "stagedir":
+            children.append(parse_stagedir(child))
+    return {'type': "scene", 'act_num': act_num, 'scene_num': scene_num, 'content': children}
+
+
+def parse_speech(element):
+    children = []
+    for child in element.iter():
+        if child.tag == "line":
+            children.append(parse_line(child))
+        elif child.tag == "stagedir":
+            children.append(parse_stagedir(child))
+    speaker = element.xpath("./speaker")[0].text
+    
+    return {'type': "speech", 'speaker': speaker, 'content': children}
+
+
+def parse_line(element):
+    line_num = element.attrib['globalnumber']
+    text = element.text
+    return {'type': "line", 'line_num': line_num, 'text': text}
+
+
+def parse_stagedir(element):
+    stagedir_num = element.attrib['sdglobalnumber']
+    dir = element.xpath("./dir")[0].text
+    return {'type': 'stagedir', 'stage_num': stagedir_num, 'dir': dir}
 
 
 app.run()

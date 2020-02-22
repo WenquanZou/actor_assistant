@@ -4,7 +4,7 @@ import {List, ListItem, ListItemText, Divider} from '@material-ui/core';
 class Menu extends Component {
     render() {
         return (
-            <List>
+            <List className="scrollable">
                 {this.props.plays.map((play) => (
                     <>
                         <ListItem key={play} button onClick={this.props.loadPlay(play)}>
