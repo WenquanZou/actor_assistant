@@ -15,19 +15,15 @@ export default class Speech extends Component {
                             return <Stagedir key={key} dir={line.dir}/>
                         } else {
                             return (
-                                <Grid container key={key}>
-                                    <Card className="line"
-                                         onMouseDown={this.props.recordStart(line.line_num, this.props.speaker, this.props.publicKey)}
-                                         onMouseUp={this.props.recordEnd(line.line_num, this.props.speaker, this.props.publicKey)}
-                                         onContextMenu={
-                                             this.props.onRightClick(line.line_num, this.props.speaker, line.text)
-                                         }>{line.text}
-                                    </Card>
-                                    <Divider orientation="vertical" flexItem />
-                                    <Card className="annotation">
-                                        {line.action}
-                                    </Card>
-                                </Grid>
+                                <Card key={key} className="line"
+                                      onMouseDown={this.props.recordStart(line.line_num, this.props.speaker, this.props.publicKey)}
+                                      onMouseUp={this.props.recordEnd(line.line_num, this.props.speaker, this.props.publicKey)}
+                                      onContextMenu={
+                                          this.props.onRightClick(line.line_num, this.props.speaker, line.text)
+                                      }>
+                                    {line.text}<span className="annotation">{line.annotation}</span>
+                                </Card>
+
                             )
                         }
                     })

@@ -51,10 +51,10 @@ def submit_annotation(playname):
     dom = ET.parse(xml_filename)
     for annotation in annotations:
         specific_line = dom.xpath(f"//line[@globalnumber={annotation['lineStart']}]")
-        specific_line[0].attrib['action'] = annotation['actionVerb']
+        specific_line[0].attrib['annotation'] = annotation['actionVerb']
     acts = []
     
-    with open(f"{playname}.annot", 'wb') as f:
+    with open(xml_filename, 'wb') as f:
         f.write(ET.tostring(dom, pretty_print=True))
     for child in dom.xpath("//act"):
         acts.append(parse_act(child))
@@ -97,8 +97,8 @@ def parse_speech(element):
 
 def parse_line(element):
     line_num = element.attrib['globalnumber']
-    if 'action' in element.attrib:
-        action = element.attrib['action']
+    if 'annotation' in element.attrib:
+        action = element.attrib['annotation']
     else:
         action = ""
     text = ""
@@ -107,7 +107,7 @@ def parse_line(element):
     for child in element.iterchildren():
         if child.tag == "foreign" and child.text:
             text = text + child.text + child.tail
-    return {'type': "line", 'line_num': line_num, 'text': text, 'action':action}
+    return {'type': "line", 'line_num': line_num, 'text': text, 'annotation':action}
 
 
 def parse_stagedir(element):
