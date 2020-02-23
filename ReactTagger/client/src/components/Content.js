@@ -5,6 +5,7 @@ import Act from "./Act.js"
 import Modal from 'react-modal';
 import Button from "@material-ui/core/Button";
 import Grid from "@material-ui/core/Grid";
+import Container from "@material-ui/core/Container";
 
 const customStyles = {
     content: {
@@ -94,10 +95,21 @@ class Content extends Component {
         })
     };
 
-    showState(event) {
-        console.log(this.state.annotations);
-        console.log(JSON.stringify(this.state.annotations))
-    }
+    submitAnnotation = event => {
+        fetch(`http://127.0.0.1:5000/submit/${this.props.filename}`, {
+            headers: {
+                'Access-Control-Allow-Origin': '*'
+            },
+            method: 'post',
+            body: JSON.stringify(this.state.annotations)
+        })
+            .then(result => result.json())
+            .then(result => console.log(result))
+            .catch(error => {
+                console.error(error);
+                this.setState({error: error.message})
+            })
+    };
 
     closeModal = event => {
         this.setState({modalOpen: false})
@@ -106,27 +118,36 @@ class Content extends Component {
     render() {
         return (
             this.props.acts !== undefined && <div>
-                <Typography component='h2' variant='h3' align='center'>{this.props.filename}</Typography>
-                <div style={{
-                    border: '1px solid black',
-                    padding: '10px',
-                }} onClick={this.showState.bind(this)}>Show state in console log
-                </div>
-                <div className="scrollable">
+                <Typography component='h2' variant='h3' align='center'>{this.props.title}</Typography>
+
+                <Container className="scrollable">
                     {this.props.acts.map((act, key) => (
                         <Act key={key} act_num={act.act_num} scenes={act.scenes}
                              recordStart={this.storeLineNum('start').bind(this)}
                              recordEnd={this.storeLineNum('end').bind(this)}
                              onRightClick={this.onRightClick.bind(this)}/>
                     ))}
-                </div>
+                </Container>
+                <Grid container spacing={0}>
+                    <Grid item>
+                        <Button variant="outlined" color="primary" onClick={this.submitAnnotation.bind(this)}>
+                            Save Annotation
+                        </Button>
+                    </Grid>
+                    <Grid item>
+                        <Button variant="outlined" color="primary" onClick={this.submitAnnotation.bind(this)}>
+                            Download XML file
+                        </Button>
+                    </Grid>
+                </Grid>
 
                 <Modal
                     isOpen={this.state.modalOpen}
                     style={customStyles}>
                     <p>You selected:</p>
                     {this.state.annotation && <p>{this.state.annotation.content}</p>}
-                    <TextField id="standard-full-width" placeholder="Annotate" onChange={this.recordActionVerb.bind(this)}/>
+                    <TextField id="standard-full-width" placeholder="Annotate"
+                               onChange={this.recordActionVerb.bind(this)}/>
                     <Grid container spacing={1}>
                         <Grid item xs={4}>
                             <Button disabled={this.state.actionVerb.trim().length === 0}

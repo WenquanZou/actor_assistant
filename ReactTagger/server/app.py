@@ -1,5 +1,8 @@
+import json
+
 import flask
-from flask import jsonify
+from flask import request, jsonify
+from ast import literal_eval
 from flask_cors import CORS, cross_origin
 import os
 from os import listdir
@@ -39,6 +42,28 @@ def get_play(playname):
     })
 
 
+@app.route('/submit/<playname>', methods=['POST'])
+def submit_annotation(playname):
+    annotations = literal_eval(request.data.decode('utf8'))
+    script_dir = os.path.abspath("shakespeare_scripts")
+    xml_filename = os.path.join(script_dir, playname)
+    
+    dom = ET.parse(xml_filename)
+    for annotation in annotations:
+        specific_line = dom.xpath(f"//line[@globalnumber={annotation['lineStart']}]")
+        specific_line[0].attrib['action'] = annotation['actionVerb']
+    acts = []
+    
+    with open(f"{playname}.annot", 'wb') as f:
+        f.write(ET.tostring(dom, pretty_print=True))
+    for child in dom.xpath("//act"):
+        acts.append(parse_act(child))
+        
+    return jsonify({
+        'annotations': annotations,
+    })
+
+
 def parse_act(element):
     children = []
     for child in element.xpath("./scene"):
@@ -72,13 +97,17 @@ def parse_speech(element):
 
 def parse_line(element):
     line_num = element.attrib['globalnumber']
+    if 'action' in element.attrib:
+        action = element.attrib['action']
+    else:
+        action = ""
     text = ""
     if element.text:
         text = element.text
     for child in element.iterchildren():
         if child.tag == "foreign" and child.text:
             text = text + child.text + child.tail
-    return {'type': "line", 'line_num': line_num, 'text': text}
+    return {'type': "line", 'line_num': line_num, 'text': text, 'action':action}
 
 
 def parse_stagedir(element):

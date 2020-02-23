@@ -39,17 +39,20 @@
 
 .scrollable {
     flex: 1;
-    height: 100vh;
+    height: 80vh;
+    padding-left: 10px;
+    padding-right: 10px;
     overflow-y: auto;
 }
 
 .speech {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .speaker {
     font-weight: bold;
     font-size: 20px;
+    padding-bottom: 10px;
 }
 
 .stagedir {
@@ -58,4 +61,11 @@
 
 .line {
     font-size: 18px;
+    max-width: 500px;
+    min-width: 500px;
+}
+
+.annotation {
+    font-size: 20px;
+    align-content: center;
 }
