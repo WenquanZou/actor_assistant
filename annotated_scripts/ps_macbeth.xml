@@ -5669,8 +5669,7 @@
 
             <speech>
                 <speaker long="Lady Macduff">L. MACD.</speaker>
-                <line globalnumber="1584" number="27" form="verse" annotation="reject">Father&#8217;d he is, and yet he&#8217;s
-                    fatherless.
+                <line globalnumber="1584" number="27" form="verse" annotation="reject">Father&#8217;d he is, and yet he&#8217;s fatherless.
                 </line>
             </speech>
 
@@ -5748,10 +5747,10 @@
 
             <speech>
                 <speaker long="Lady Macduff">L. MACD.</speaker>
-                <line globalnumber="1601" number="42" form="verse">Thou speak&#8217;st with all thy wit, and yet, i&#8217;
+                <line globalnumber="1601" number="42" form="verse" annotation="encourage">Thou speak&#8217;st with all thy wit, and yet, i&#8217;
                     faith,
                 </line>
-                <line globalnumber="1602" number="43" form="verse">With wit enough for thee.</line>
+                <line globalnumber="1602" number="43" form="verse" annotation="encourage">With wit enough for thee.</line>
             </speech>
 
             <speech>
@@ -5761,7 +5760,7 @@
 
             <speech>
                 <speaker long="Lady Macduff">L. MACD.</speaker>
-                <line globalnumber="1604" number="45" form="prose">Ay, that he was.</line>
+                <line globalnumber="1604" number="45" form="prose" annotation="enlighten">Ay, that he was.</line>
             </speech>
 
             <speech>
@@ -5771,7 +5770,7 @@
 
             <speech>
                 <speaker long="Lady Macduff">L. MACD.</speaker>
-                <line globalnumber="1606" number="47" form="prose">Why, one that swears and lies.</line>
+                <line globalnumber="1606" number="47" form="prose" annotation="tutor">Why, one that swears and lies.</line>
             </speech>
 
             <speech>
@@ -5781,7 +5780,7 @@
 
             <speech>
                 <speaker long="Lady Macduff">L. MACD.</speaker>
-                <line globalnumber="1608" number="49" form="prose">Every one that does so is a traitor, and must be hang&#8217;d.</line>
+                <line globalnumber="1608" number="49" form="prose" annotation="tutor">Every one that does so is a traitor, and must be hang&#8217;d.</line>
             </speech>
 
             <speech>
@@ -5793,7 +5792,7 @@
 
             <speech>
                 <speaker long="Lady Macduff">L. MACD.</speaker>
-                <line globalnumber="1610" number="51" form="prose">Every one.</line>
+                <line globalnumber="1610" number="51" form="prose" annotation="block">Every one.</line>
             </speech>
 
             <speech>
@@ -5803,7 +5802,7 @@
 
             <speech>
                 <speaker long="Lady Macduff">L. MACD.</speaker>
-                <line globalnumber="1612" number="53" form="prose">Why, the honest men.</line>
+                <line globalnumber="1612" number="53" form="prose" annotation="tutor">Why, the honest men.</line>
             </speech>
 
             <speech>
@@ -5815,8 +5814,7 @@
 
             <speech>
                 <speaker long="Lady Macduff">L. MACD.</speaker>
-                <line globalnumber="1614" number="55" form="prose">Now God help thee, poor monkey! But how wilt thou do
-                    for a father?
+                <line globalnumber="1614" number="55" form="prose" annotation="envelop">Now God help thee, poor monkey! But how wilt thou do for a father?
                 </line>
             </speech>
 
@@ -5829,7 +5827,7 @@
 
             <speech>
                 <speaker long="Lady Macduff">L. MACD.</speaker>
-                <line globalnumber="1616" number="57" form="prose">Poor prattler, how thou talk&#8217;st!</line>
+                <line globalnumber="1616" number="57" form="prose" annotation="tickle">Poor prattler, how thou talk&#8217;st!</line>
             </speech>
 
             <stagedir sdglobalnumber="1616.01" sdnumber="57.01">

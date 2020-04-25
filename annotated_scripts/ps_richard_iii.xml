@@ -9388,12 +9388,12 @@
 
             <speech>
                 <speaker long="Queen Elizabeth">Q. ELIZ.</speaker>
-                <line globalnumber="2801" number="200" form="verse">I have no more sons of the royal blood</line>
-                <line globalnumber="2802" number="201" form="verse">For thee to slaughter. For my daughters, Richard,
+                <line globalnumber="2801" number="200" form="verse" annotation="confront">I have no more sons of the royal blood for thee to slaughter.</line>
+                <line globalnumber="2802" number="201" form="verse" annotation="deflect">For my daughters, Richard,
                 </line>
-                <line globalnumber="2803" number="202" form="verse">They shall be praying nuns, not weeping queens;
+                <line globalnumber="2803" number="202" form="verse" annotation="deflect">They shall be praying nuns, not weeping queens;
                 </line>
-                <line globalnumber="2804" number="203" form="verse">And therefore level not to hit their lives.</line>
+                <line globalnumber="2804" number="203" form="verse" annotation="deflect">And therefore level not to hit their lives.</line>
             </speech>
 
             <speech>
@@ -9404,17 +9404,17 @@
 
             <speech>
                 <speaker long="Queen Elizabeth">Q. ELIZ.</speaker>
-                <line globalnumber="2807" number="206" form="verse">And must she die for this? O, let her live!</line>
-                <line globalnumber="2808" number="207" form="verse">And I&#8217;ll corrupt her manners, stain her
+                <line globalnumber="2807" number="206" form="verse" annotation="dissuade">And must she die for this? O, let her live!</line>
+                <line globalnumber="2808" number="207" form="verse" annotation="dissuade">And I&#8217;ll corrupt her manners, stain her
                     beauty,
                 </line>
-                <line globalnumber="2809" number="208" form="verse">Slander myself as false to Edward&#8217;s bed,
+                <line globalnumber="2809" number="208" form="verse" annotation="shock">Slander myself as false to Edward&#8217;s bed,
                 </line>
-                <line globalnumber="2810" number="209" form="verse">Throw over her the veil of infamy.</line>
-                <line globalnumber="2811" number="210" form="verse">So she may live unscarr&#8217;d of bleeding
+                <line globalnumber="2810" number="209" form="verse" annotation="shock">Throw over her the veil of infamy.</line>
+                <line globalnumber="2811" number="210" form="verse" annotation="sideswipe">So she may live unscarred of bleeding
                     slaughter,
                 </line>
-                <line globalnumber="2812" number="211" form="verse">I will confess she was not Edward&#8217;s
+                <line globalnumber="2812" number="211" form="verse" annotation="sideswipe">I will confess she was not Edward&#8217;s
                     daughter.
                 </line>
             </speech>
@@ -9426,7 +9426,7 @@
 
             <speech>
                 <speaker long="Queen Elizabeth">Q. ELIZ.</speaker>
-                <line globalnumber="2814" number="213" form="verse">To save her life, I&#8217;ll say she is not so.
+                <line globalnumber="2814" number="213" form="verse" annotation="thwart">To save her life, I'll say she is not so.
                 </line>
             </speech>
 
@@ -9437,7 +9437,7 @@
 
             <speech>
                 <speaker long="Queen Elizabeth">Q. ELIZ.</speaker>
-                <line globalnumber="2816" number="215" form="verse">And only in that safety died her brothers.</line>
+                <line globalnumber="2816" number="215" form="verse" annotation="reject">And only in that safety died her brothers.</line>
             </speech>
 
             <speech>
@@ -9447,7 +9447,7 @@
 
             <speech>
                 <speaker long="Queen Elizabeth">Q. ELIZ.</speaker>
-                <line globalnumber="2818" number="217" form="verse">No, to their lives ill friends were contrary.</line>
+                <line globalnumber="2818" number="217" form="verse" annotation="stab">No, to their lives ill friends were contrary.</line>
             </speech>
 
             <speech>
@@ -9505,10 +9505,10 @@
 
             <speech>
                 <speaker long="Queen Elizabeth">Q. ELIZ.</speaker>
-                <line globalnumber="2841" number="240" form="verse">What good is cover&#8217;d with the face of
+                <line globalnumber="2841" number="240" form="verse" annotation="quiz">What good is cover&#8217;d with the face of
                     heaven,
                 </line>
-                <line globalnumber="2842" number="241" form="verse">To be discover&#8217;d, that can do me good?</line>
+                <line globalnumber="2842" number="241" form="verse" annotation="quiz">To be discover&#8217;d, that can do me good?</line>
             </speech>
 
             <speech>
@@ -9520,7 +9520,7 @@
 
             <speech>
                 <speaker long="Queen Elizabeth">Q. ELIZ.</speaker>
-                <line globalnumber="2844" number="243" form="verse">Up to some scaffold, there to lose their heads.
+                <line globalnumber="2844" number="243" form="verse" annotation="deride">Up to some scaffold, there to lose their heads.
                 </line>
             </speech>
 
@@ -9534,8 +9534,8 @@
 
             <speech>
                 <speaker long="Queen Elizabeth">Q. ELIZ.</speaker>
-                <line globalnumber="2847" number="246" form="verse">Flatter my sorrow with report of it;</line>
-                <line globalnumber="2848" number="247" form="verse">Tell me, what state, what dignity, what honor,
+                <line globalnumber="2847" number="246" form="verse" annotation="challenge">Flatter my sorrow with report of it;</line>
+                <line globalnumber="2848" number="247" form="verse" annotation="challenge">Tell me, what state, what dignity, what honor,
                 </line>
                 <line globalnumber="2849" number="248" form="verse">Canst thou demise to any child of mine?</line>
             </speech>
@@ -9554,9 +9554,9 @@
 
             <speech>
                 <speaker long="Queen Elizabeth">Q. ELIZ.</speaker>
-                <line globalnumber="2855" number="254" form="verse">Be brief, lest that the process of thy kindness
+                <line globalnumber="2855" number="254" form="verse" annotation="swipe">Be brief, lest that the process of thy kindness
                 </line>
-                <line globalnumber="2856" number="255" form="verse">Last longer telling than thy kindness&#8217; date.
+                <line globalnumber="2856" number="255" form="verse" annotation="swipe">Last longer telling than thy kindness&#8217; date.
                 </line>
             </speech>
 
@@ -9568,7 +9568,7 @@
 
             <speech>
                 <speaker long="Queen Elizabeth">Q. ELIZ.</speaker>
-                <line globalnumber="2858" number="257" form="verse">My daughter&#8217;s mother thinks it with her
+                <line globalnumber="2858" number="257" form="verse" annotation="induce">My daughter's mother thinks it with her
                     soul.
                 </line>
             </speech>
@@ -9599,7 +9599,7 @@
 
             <speech>
                 <speaker long="Queen Elizabeth">Q. ELIZ.</speaker>
-                <line globalnumber="2866" number="265" form="verse">Well then, who dost thou mean shall be her king?
+                <line globalnumber="2866" number="265" form="verse" annotation="query">Well then, who dost thou mean shall be her king?
                 </line>
             </speech>
 
@@ -9611,7 +9611,7 @@
 
             <speech>
                 <speaker long="Queen Elizabeth">Q. ELIZ.</speaker>
-                <line globalnumber="2868" number="267" form="verse" offset="0">What, thou?</line>
+                <line globalnumber="2868" number="267" form="verse" offset="0" annotation="halt">What, thou?</line>
             </speech>
 
             <speech>
@@ -9621,7 +9621,7 @@
 
             <speech>
                 <speaker long="Queen Elizabeth">Q. ELIZ.</speaker>
-                <line globalnumber="2870" number="268" form="verse" offset="0">How canst thou woo her?</line>
+                <line globalnumber="2870" number="268" form="verse" offset="0" annotation="demean">How canst thou woo her?</line>
             </speech>
 
             <speech>
@@ -9632,7 +9632,7 @@
 
             <speech>
                 <speaker long="Queen Elizabeth">Q. ELIZ.</speaker>
-                <line globalnumber="2873" number="270" form="verse" offset="0">And wilt thou learn of me?</line>
+                <line globalnumber="2873" number="270" form="verse" offset="0" annotation="challenge">And wilt thou learn of me?</line>
             </speech>
 
             <speech>
@@ -9642,9 +9642,9 @@
 
             <speech>
                 <speaker long="Queen Elizabeth">Q. ELIZ.</speaker>
-                <line globalnumber="2875" number="271" form="verse">Send to her by the man that slew her brothers</line>
-                <line globalnumber="2876" number="272" form="verse">A pair of bleeding hearts; thereon engrave</line>
-                <line globalnumber="2877" number="273" form="verse">&#8220;Edward&#8221; and &#8220;York&#8221;; then
+                <line globalnumber="2875" number="271" form="verse" annotation="mock">Send to her by the man that slew her brothers</line>
+                <line globalnumber="2876" number="272" form="verse" annotation="mock">A pair of bleeding hearts; thereon engrave</line>
+                <line globalnumber="2877" number="273" form="verse" annotation="mock">&#8220;Edward&#8221; and &#8220;York&#8221;; then
                     haply will she weep.
                 </line>
                 <line globalnumber="2878" number="274" form="verse">Therefore present to her&#8212;as sometimes
@@ -9677,9 +9677,9 @@
 
             <speech>
                 <speaker long="Queen Elizabeth">Q. ELIZ.</speaker>
-                <line globalnumber="2890" number="285" form="verse" offset="4">There is no other way,</line>
-                <line globalnumber="2891" number="286" form="verse">Unless thou couldst put on some other shape</line>
-                <line globalnumber="2892" number="287" form="verse">And not be Richard that hath done all this.</line>
+                <line globalnumber="2890" number="285" form="verse" offset="4" annotation="block">There is no other way,</line>
+                <line globalnumber="2891" number="286" form="verse" annotation="demean">Unless thou couldst put on some other shape</line>
+                <line globalnumber="2892" number="287" form="verse" annotation="demean">And not be Richard that hath done all this.</line>
             </speech>
 
             <speech>
@@ -9689,9 +9689,9 @@
 
             <speech>
                 <speaker long="Queen Elizabeth">Q. ELIZ.</speaker>
-                <line globalnumber="2894" number="289" form="verse">Nay then indeed she cannot choose but hate thee,
+                <line globalnumber="2894" number="289" form="verse" annotation="reveal">Nay then indeed she cannot choose but hate thee,
                 </line>
-                <line globalnumber="2895" number="290" form="verse">Having bought love with such a bloody spoil.</line>
+                <line globalnumber="2895" number="290" form="verse" annotation="reveal">Having bought love with such a bloody spoil.</line>
             </speech>
 
             <speech>
@@ -9803,7 +9803,7 @@
 
             <speech>
                 <speaker long="Queen Elizabeth">Q. ELIZ.</speaker>
-                <line globalnumber="2953" number="348" form="verse">To vail the title, as her mother doth.</line>
+                <line globalnumber="2953" number="348" form="verse" annotation="slash">To vail the title, as her mother doth.</line>
             </speech>
 
             <speech>
@@ -9813,7 +9813,7 @@
 
             <speech>
                 <speaker long="Queen Elizabeth">Q. ELIZ.</speaker>
-                <line globalnumber="2955" number="350" form="verse">But how long shall that title &#8220;ever&#8221;
+                <line globalnumber="2955" number="350" form="verse" annotation="interrogate">But how long shall that title &#8220;ever&#8221;
                     last?
                 </line>
             </speech>
@@ -9826,7 +9826,7 @@
 
             <speech>
                 <speaker long="Queen Elizabeth">Q. ELIZ.</speaker>
-                <line globalnumber="2957" number="352" form="verse">But how long fairly shall her sweet life last?
+                <line globalnumber="2957" number="352" form="verse" annotation="interrogate">But how long fairly shall her sweet life last?
                 </line>
             </speech>
 
@@ -9837,7 +9837,7 @@
 
             <speech>
                 <speaker long="Queen Elizabeth">Q. ELIZ.</speaker>
-                <line globalnumber="2959" number="354" form="verse">As long as hell and Richard likes of it.</line>
+                <line globalnumber="2959" number="354" form="verse" annotation="halt">As long as hell and Richard likes of it.</line>
             </speech>
 
             <speech>
@@ -9847,7 +9847,7 @@
 
             <speech>
                 <speaker long="Queen Elizabeth">Q. ELIZ.</speaker>
-                <line globalnumber="2961" number="356" form="verse">But she, your subject, loathes such sovereignty.
+                <line globalnumber="2961" number="356" form="verse" annotation="block">But she, your subject, loathes such sovereignty.
                 </line>
             </speech>
 
@@ -9858,7 +9858,7 @@
 
             <speech>
                 <speaker long="Queen Elizabeth">Q. ELIZ.</speaker>
-                <line globalnumber="2963" number="358" form="verse">An honest tale speeds best being plainly told.
+                <line globalnumber="2963" number="358" form="verse" annotation="frustrate">An honest tale speeds best being plainly told.
                 </line>
             </speech>
 
@@ -9869,7 +9869,7 @@
 
             <speech>
                 <speaker long="Queen Elizabeth">Q. ELIZ.</speaker>
-                <line globalnumber="2965" number="360" form="verse">Plain and not honest is too harsh a style.</line>
+                <line globalnumber="2965" number="360" form="verse" annotation="divert">Plain and not honest is too harsh a style.</line>
             </speech>
 
             <speech>
@@ -9879,8 +9879,8 @@
 
             <speech>
                 <speaker long="Queen Elizabeth">Q. ELIZ.</speaker>
-                <line globalnumber="2967" number="362" form="verse">O no, my reasons are too deep and dead&#8212;</line>
-                <line globalnumber="2968" number="363" form="verse">Too deep and dead, poor infants, in their graves.
+                <line globalnumber="2967" number="362" form="verse" annotation="block">O no, my reasons are too deep and dead&#8212;</line>
+                <line globalnumber="2968" number="363" form="verse" annotation="block">Too deep and dead, poor infants, in their graves.
                 </line>
             </speech>
 
