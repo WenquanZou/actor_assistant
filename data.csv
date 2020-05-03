@@ -20,31 +20,118 @@ Lady Macduff,Every one.,block
 Lady Macduff,"Why, the honest men.",tutor
 Lady Macduff,"Now God help thee, poor monkey! But how wilt thou do for a father?",envelop
 Lady Macduff,"Poor prattler, how thou talk'st!",tickle
-,I have no more sons of the royal blood for thee to slaughter.,confront
-,"For my daughters, Richard, they shall be praying nuns, not weeping queens and therefore level not to hit their lives.",deflect
-,"And must she die for this? O, let her live! And I'll corrupt her manners, stain her beauty.",dissuade
-,"Slander myself as false to Edward's bed, throw over her the veil of infamy.",shock
-,"So she may live unscarred of bleeding slaughter, I will confess she was not Edward's daughter.",sideswipe
-,"To save her life, I'll say she is not so.",thwart
-,And only in that safety died her brothers.,reject
-,"No, to their lives ill friends were contrary.",stab
-,"What good is cover&#8217;d with the face of heaven, to be discovered, that can do me good?",quiz
-,"Up to some scaffold, there to lose their heads.",deride
-,"Flatter my sorrow with report of it. Tell me, what state, what dignity, what honor. Canst thou demise to any child of mine?",challenge
-,"Be brief, lest that the process of thy kindness. Last longer telling than thy kindness' date.",swipe
-,My daughter's mother thinks it with her soul.,induce
-,"Well then, who dost thou mean shall be her king?",query
-,"What, thou?",halt
-,How canst thou woo her?,demean
-,And wilt thou learn of me?,challenge
-,"Send to her, by the man that slew her brothers, A pair of bleeding hearts; thereon engrave “Edward” and “York.” Then haply she will weep.",mock
-,There is no other way,block
-,Unless thou couldst put on some other shape and not be Richard that hath done all this.,demean
-,"Nay then indeed she cannot choose but hate thee, having bought love with such a bloody spoil.",reveal
-,"To vail the title, as her mother doth.",slash
-,But how long shall that title “ever” last?,interrogate
-,But how long fairly shall her sweet life last?,interrogate
-,As long as hell and Richard likes of it.,halt
-,"But she, your subject, loathes such sovereignty.",block
-,An honest tale speeds best being plainly told.,frustrate
-,"O no, my reasons are too deep and dead. Too deep and dead, poor infants, in their graves.",block
+Lady MacBeth,He has almost supped.,warn
+Lady MacBeth,Why have you left the chamber?,question
+Lady MacBeth,"Know you not, he has?",Challenge
+Lady MacBeth,Was the hope drunk? wherein you dressed yourself? Hath it slept since?,shock
+Lady MacBeth,"And wakes it now, to look so green and pale. At what it did so freely?",poke
+Lady MacBeth,From this time such I account thy love.,threaten
+Lady MacBeth,"Wouldst thou have that. Which thou esteem'st the ornament of life and live a coward in thine own esteem. Letting 'I dare not', wait upon 'I would' like the poor car i'th'adage?",arouse
+Lady MacBeth,What beast was't then. That made you break this enterprise to me?,chastise
+Lady MacBeth,"When you durst do it, then you were a man. And to be more than what you were, you would be so much more the man.",encourage
+Lady MacBeth,"Nor time nor place, did then adhere, and yet you would make both",remind
+Lady MacBeth,"They have made themselves, and that their fitness now. Does unmake you?",promise
+Lady MacBeth,"I have given suck, and know how tender 'tis to love the babe that milks me. I would, while it was smiling in my face, have plucked my nipple from his boneless gums, and dashed the brains out, had I so sworn. As you have done to this",seduce
+Lady MacBeth,We fail.,block
+Lady MacBeth,But screw your courage to the sticking place and we'll not fail,bolster
+Lady MacBeth,"When Duncan is asleep, whereto the rather shall his day's hard journey. Soundly invite him, his two chamberlains. Will I with wine and wassail so convince, that memory, the warder of the brain shall be a fume, and the receipt of reason. A limbeck only",persuade
+Lady MacBeth,"When in swinish sleep their drenched natures lies, as in a death, What cannot you and I perform upon th'unguarded Duncan?",convince
+Lady MacBeth,"What not put upon his spongy officers, who shall bear the guilt of our great quell?",entrap
+Lady MacBeth,"Who dares receive it other, as we shall make our griefs and clamour roar. Upon his death?",seduce
+Queen Elizabeth,I have no more sons of the royal blood for thee to slaughter.,confront
+Queen Elizabeth,"For my daughters, Richard, they shall be praying nuns, not weeping queens and therefore level not to hit their lives.",deflect
+Queen Elizabeth,"And must she die for this? O, let her live! And I'll corrupt her manners, stain her beauty.",dissuade
+Queen Elizabeth,"Slander myself as false to Edward's bed, throw over her the veil of infamy.",shock
+Queen Elizabeth,"So she may live unscarred of bleeding slaughter, I will confess she was not Edward's daughter.",sideswipe
+Queen Elizabeth,"To save her life, I'll say she is not so.",thwart
+Queen Elizabeth,And only in that safety died her brothers.,reject
+Queen Elizabeth,"No, to their lives ill friends were contrary.",stab
+Queen Elizabeth,"What good is cover&#8217;d with the face of heaven, to be discovered, that can do me good?",quiz
+Queen Elizabeth,"Up to some scaffold, there to lose their heads.",deride
+Queen Elizabeth,"Flatter my sorrow with report of it. Tell me, what state, what dignity, what honor. Canst thou demise to any child of mine?",challenge
+Queen Elizabeth,"Be brief, lest that the process of thy kindness. Last longer telling than thy kindness' date.",swipe
+Queen Elizabeth,My daughter's mother thinks it with her soul.,induce
+Queen Elizabeth,"Well then, who dost thou mean shall be her king?",query
+Queen Elizabeth,"What, thou?",halt
+Queen Elizabeth,How canst thou woo her?,demean
+Queen Elizabeth,And wilt thou learn of me?,challenge
+Queen Elizabeth,"Send to her, by the man that slew her brothers, A pair of bleeding hearts; thereon engrave “Edward” and “York.” Then haply she will weep.",mock
+Queen Elizabeth,There is no other way,block
+Queen Elizabeth,Unless thou couldst put on some other shape and not be Richard that hath done all this.,demean
+Queen Elizabeth,"Nay then indeed she cannot choose but hate thee, having bought love with such a bloody spoil.",reveal
+Queen Elizabeth,"To vail the title, as her mother doth.",slash
+Queen Elizabeth,But how long shall that title “ever” last?,interrogate
+Queen Elizabeth,But how long fairly shall her sweet life last?,interrogate
+Queen Elizabeth,As long as hell and Richard likes of it.,halt
+Queen Elizabeth,"But she, your subject, loathes such sovereignty.",block
+Queen Elizabeth,An honest tale speeds best being plainly told.,frustrate
+Queen Elizabeth,"O no, my reasons are too deep and dead. Too deep and dead, poor infants, in their graves.",block
+King Richard,"Stay, madam, I must talk a word with you.",grab
+King Richard,"You have a daughter called Elizabeth, virtuous and fair, royal and gracious.",lure
+King Richard,"Wrong not her birth, she is of royal blood.",tickle
+King Richard,Her life is safest only in her birth.,alert
+King Richard,"Lo, at their birth good stars were opposite.",manoeuvre
+King Richard,All unavoided is the doom of destiny,stir
+King Richard,"Madam, so thrive I in my enterprise and dangerous success of bloody wars. As I intend more good to you and yours than ever you and yours by me were harmed.",entrap
+King Richard,"Th'advancement of your children, gentle lady.",prod
+King Richard,"Upto the dignity and height of fortune, the high imperial type of this earth's glory.",entangle
+King Richard,"Even all I have- ay, and myself and all. will I withal endow a child of thine; So in the Lethe of thy angry soul Thou drown the remembrance of those wrongs which thou supposest I have done to thee.",direct
+King Richard,Know that from my soul I love thy daughter,strike
+King Richard,What do you think?,approach
+King Richard,"Be not so hasty to confound my meaning. I mean, that with my soul I love thy daughter, and mean to make her queen of England.",coax
+King Richard,Even he that makes her queen.,contest
+King Richard,Who should be else,challenge
+King Richard,Even so.,suppress
+King Richard,How think you of it?,poke
+King Richard,"That would I learn of you, as one being best acquainted with her humour",spurn
+King Richard,"Madam, with all my heart",catch
+Marcus Brutus,"Welcome, Mark Antony!",disarm
+Mark Antony,"O mighty Caesar! Dost thou lie so low? Are all thy conquests, glories, triumphs, spoils, shrunk to this little measure? Fare thee well!",reject
+Mark Antony,"I know not, gentlemen, what you intend, who else must be let blood, who else is rank?",condemn
+Mark Antony,"If I myself, there is no hour so fit as Caesar's death's hour, nor no instrument of half that worth as those your swords, made rich with the most noble blood of all this world. I do beseech ye, if you bear me hard, now whilst your purpled hands do reek and smoke, fulfill your pleasure.",dare
+Mark Antony,"Live a thousand years, I shall not find myself so apt to die. I defy you no place will please me so, no mean of death. As here by Caesar, and by you cut off, the choice and master spirits of this age.",defy
+Marcus Brutus,O Antony! Beg not your death of us.,grab
+Marcus Brutus,"Though now we must appear bloody and cruel, as by our hands and this our present act. You see we do, yet see you but our hands. And this the bleeding business they have done.",stroke
+Marcus Brutus,"Our hearts you see not, they are pitiful. And pity to the general wrong of Rome. As fire drives out fire, so pity pity. Hath done this deed on Caesar.",divert
+Marcus Brutus,"For your part, to you our swords have leaden points, Mark Antony. Our arms in strength of malice, and our hearts of brothers’ temper, do receive you in? With all kind love, good thoughts, and reverence",reassure
+Cassius,Your voice shall be as strong as any man’s. In the disposing of new dignities.,entice
+Marcus Brutus,"Only be patient till we have appeas’d The multitude, beside themselves with fear, And then we will deliver you the cause Why I, that did love Caesar when I struck him, Have thus proceeded.",appease
+Mark Antony,I doubt not of your wisdom,flatter
+Mark Antony,"Let each man render me his bloody hand. First, Marcus Brutus, will I shake with you; Next Caius Cassius, do I take your hand; Now Decius Brutus, yours; now yours, Metellus; Yours, Cinna; and my valiant Casca, yours; Though last, not least in love, yours, good Trebonius.",capture
+Mark Antony,"Gentlemen all—alas, what shall I say? My credit now stands on such slippery ground that one of two bad ways you must conceit me, Either a coward or a flatterer",beguile
+Mark Antony,"That I did love thee, Caesar, O, ’tis true; If then thy spirit look upon us now, Shall it not grieve thee dearer than thy death. To see thy Antony making his peace, Shaking the bloody fingers of thy foes, Most noble! In the presence of thy corse? Had I as many eyes as thou hast wounds, Weeping as fast as they stream forth thy blood, It would become me better than to close In terms of friendship with thine enemies. Pardon me, Julius! Here wast thou bay’d, brave hart, Here didst thou fall, and here thy hunters stand, Sign’d in thy spoil, and crimson’d in thy lethe. O world! Thou wast the forest to this hart, And this indeed, O world, the heart of thee. How like a deer, strucken by many princes, Dost thou here lie!",persuade
+Cassius,Mark Antony—,question
+Mark Antony,"Pardon me, Caius Cassius! The enemies of Caesar shall say this: Then, in a friend, it is cold modesty.",entrap
+Cassius,"I blame you not for praising Caesar so, But what compact mean you to have with us? Will you be prick'd in number of our friends, Or shall we on, and not depend on you?",assess
+Mark Antony,"Therefore I took your hands, but was indeed Sway'd from the point, by looking down on Caesar. Friends am I with you all, and love you all, Upon this hope, that you shall give me reasons Why, and wherein, Caesar was dangerous.",play
+Marcus Brutus,"Or else were this a savage spectacle. Our reasons are so full of good regard that were you, Antony, the son of Caesar, you should be satisfied.",assure
+Mark Antony,"That’s all I seek, And am, moreover, suitor that I may produce his body to the market-place, and in the pulpit, as becomes a friend, Speak in the order of his funeral.",push
+Marcus Brutus,"You shall, Mark Antony.",appease
+Cassius,"Brutus, a word with you. You know not what you do. Do not consent that Antony speak in his funeral. Know you how much the people may be mov’d by that which he will utter?",warn
+Marcus Brutus,"By your pardon— I will myself into the pulpit first, And show the reason of our Caesar’s death. What Antony shall speak, I will protest He speaks by leave and by permission; And that we are contented Caesar shall Have all true rites and lawful ceremonies. It shall advantage more than do us wrong",calm
+Cassius,"I know not what may fall, I like it not.",press
+Marcus Brutus,"Mark Antony, here take you Caesar’s body. You shall not in your funeral speech blame us, But speak all good you can devise of Caesar, And say you do’t by our permission; Else shall you not have any hand at all About his funeral. And you shall speak In the same pulpit whereto I am going, After my speech is ended",control
+Mark Antony,Be it so; I do desire no more.,soothe
+Marcus Brutus,"Prepare the body then, and follow us",allow
+Mark Antony,"O, pardon me, thou bleeding piece of earth, that I am meek and gentle with these butchers!",beguile
+Mark Antony,Thou art the ruins of the noblest man that ever lived in the tide of times,acknowledge
+Mark Antony,Woe to the hand that shed this costly blood! Over thy wounds now do I prophesy (Which like dumb mouths do ope their ruby lips to beg the voice and utterance of my tongue),threaten
+Mark Antony,A curse shall light upon the limbs of men;,curse
+Mark Antony,Domestic fury and fierce civil strife Shall cumber all the parts of Italy;,shake
+Mark Antony,"Blood and destruction shall be so in use, and dreadful objects so familiar, that mothers shall but smile when they behold their infants quartered with the hands of war; All pity chok’d with custom of fell deeds;",frighten
+Mark Antony,"And Caesar’s spirit, ranging for revenge, with Ate by his side come hot from hell, shall in these confines with a monarch’s voice Cry “Havoc!” and let slip the dogs of war, that this foul deed shall smell above the earth with carrion men, groaning for burial.",terrify
+Phebe,’Tis but a peevish boy—yet he talks well,bluff
+Phebe,But what care I for words?,push
+Phebe,When he that speaks them pleases those that hear.,pull
+Phebe,It is a pretty youth—not very pretty— But sure he’s proud—and yet his pride becomes him.,mask
+Phebe,He’ll make a proper man,grab
+Phebe,"Is his complexion; and faster than his tongue Did make offense, his eye did heal it up",woo
+Phebe,He is not very tall—yet for his years he’s tall.,resist
+Phebe,His leg is but so so—and yet ’tis well.,divert
+Phebe,"There was a pretty redness in his lip, a little riper and more lusty red than that mix’d in his cheek; ’twas just the difference betwixt the constant red and mingled damask.",strip
+Phebe,"There be some women, Silvius, had they mark’d him In parcels as I did, would have gone near To fall in love with him; but for my part I love him not, nor hate him not; and yet Have more cause to hate him than to love him, For what had he to do to chide at me?",examine
+Phebe,"He said mine eyes were black and my hair black, And, now I am rememb’red, scorn’d at me.",slash
+Phebe,I marvel why I answer’d not again.,move
+Phebe,But that’s all one; omittance is no quittance.,slash
+Phebe,"I’ll write to him a very taunting letter, And thou shalt bear it.",court
+Phebe,"Wilt thou, Silvius?",wheedle
